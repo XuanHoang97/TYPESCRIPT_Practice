@@ -1,0 +1,26 @@
+{
+  "name": "typescript_practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XuanHoang97/TYPESCRIPT_Practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XuanHoang97/TYPESCRIPT_Practice/issues"
+  },
+  "homepage": "https://github.com/XuanHoang97/TYPESCRIPT_Practice#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {},
+  "keywords": [],
+  "description": ""
+}
