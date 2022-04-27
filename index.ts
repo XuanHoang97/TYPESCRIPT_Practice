@@ -1,15 +1,11 @@
-// TYPE ALIAS
-type StringOrNumber = string | number;
-type Student = {
-    name: string;
-    id: StringOrNumber
-}
+import { Invoice, Payment } from "./classImplementInterface";
+import { hasPrint } from "./interfaceForClass";
 
-const studentDetails = (id: StringOrNumber, studentName: string): void => {
-    console.log(`Student Name: ${studentName} and ID: ${id}`);
-}
+const documenOne: hasPrint = new Invoice("Google", "work on code", 1000);
+const documentTwo: hasPrint = new Payment("Amazon", "work on code", 1000);
 
-// studentDetails(123, 'John');
-// studentDetails('456', 'John');
+const allDocuments: hasPrint[] = [];
+allDocuments.push(documenOne);
+allDocuments.push(documentTwo);
 
-
+console.log(allDocuments);
